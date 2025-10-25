@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 
 import DefaultLayout from "@/layouts/default";
 
-// Crie um MotionCard
+// @ts-ignore
 const MotionCard = motion(Card);
 
 export default function IndexPage() {
