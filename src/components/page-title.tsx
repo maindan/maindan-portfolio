@@ -2,6 +2,7 @@ import { Card } from "@heroui/card";
 import { motion } from "framer-motion";
 type PageTitle = { title: string; subtitle: string };
 export default function PageTitle({ title, subtitle }: PageTitle) {
+  // @ts-ignore
   const MotionCard = motion(Card);
 
   return (

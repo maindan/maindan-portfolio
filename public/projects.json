@@ -1,0 +1,182 @@
+[
+  {
+    "title": "Study Frontend",
+    "img": "https://i.ibb.co/VWGfmZfj/Design-sem-nome-8.png",
+    "description": "Interface web desenvolvida com React, TailwindCSS e Radix UI para o sistema de gerenciamento de tarefas e estudo. Permite login, recuperação de senha, controle de tarefas e visualização de progresso do usuário, integrando-se diretamente com o backend Spring Boot.",
+    "tags": ["React", "TypeScript", "TailwindCSS", "Radix UI", "Frontend", "Study", "Profissional"],
+    "link": "https://study.maindan.tech",
+    "repository": "https://github.com/maindan/study",
+    "features": [
+      "Login e recuperação de senha com modais dinâmicos",
+      "Navegação protegida para usuários autenticados",
+      "Gerenciamento de tarefas com visualização de progresso",
+      "Integração com backend Spring Boot via API REST",
+      "Design responsivo e moderno com TailwindCSS e Radix UI"
+    ],
+    "type": "profissional",
+    "status": "em andamento"
+  },
+  {
+    "title": "Study Backend",
+    "img": "https://i.ibb.co/XZ9y7rv5/Design-sem-nome-7.png",
+    "description": "Backend desenvolvido com Spring Boot para gerenciamento de tarefas e estudo, incluindo autenticação, controle de perfis, tópicos, tarefas e monitoramento de tempo de estudo. O projeto integra PostgreSQL, Redis e JWT para segurança e performance.",
+    "tags": ["Spring Boot", "Java", "PostgreSQL", "Redis", "JWT", "Backend", "REST API", "Profissional"],
+    "repository": "https://github.com/maindan/study",
+    "features": [
+      "Gerenciamento de tópicos e tarefas com DTOs e APIs REST",
+      "Controle de usuários e perfis com autenticação JWT",
+      "Monitoramento do estado de estudo, tempo de estudo e pausas",
+      "Integração com Redis para cache e performance",
+      "Documentação da API com OpenAPI/Swagger"
+    ],
+    "type": "profissional",
+    "status": "concluído"
+  },
+  {
+    "title": "SAC Frontend",
+    "img": "https://i.ibb.co/PG03P1rx/Design-sem-nome-6.png",
+    "description": "Interface web desenvolvida com Angular para o sistema de atendimento ao cliente (SAC). O projeto permite o gerenciamento de ordens de serviço, clientes e equipamentos, integrando-se com o backend para autenticação e controle de acesso baseado em permissões.",
+    "tags": ["Angular", "TypeScript", "PrimeNG", "Frontend", "SAC", "Profissional"],
+    "repository": "https://github.com/maindan/SAC-frontend",
+    "features": [
+      "Interface responsiva desenvolvida com Angular e PrimeNG",
+      "Autenticação e controle de acesso por papéis (roles)",
+      "Gerenciamento de clientes, ordens de serviço e equipamentos",
+      "Integração direta com o backend via API REST",
+      "Dashboard e rotas protegidas para usuários autenticados"
+    ],
+    "type": "profissional",
+    "status": "em andamento"
+  },
+  {
+    "title": "SAC Backend",
+    "img": "https://i.ibb.co/qLS0YkFt/Design-sem-nome-5.png",
+    "description": "API desenvolvida em Java com Spring Boot para o gerenciamento de equipamentos, clientes e usuários em um sistema de atendimento ao cliente (SAC). O projeto implementa autenticação JWT, controle de acesso baseado em papéis (roles) e operações CRUD completas para entidades como usuários, clientes e equipamentos.",
+    "tags": ["Java", "Spring Boot", "JWT", "REST API", "SAC", "Backend", "Profissional"],
+    "repository": "https://github.com/maindan/SAC-backend",
+    "features": [
+      "Autenticação e autorização com JWT",
+      "Gerenciamento de usuários, clientes e equipamentos",
+      "Suporte a diferentes papéis de acesso (USER e ADMIN)",
+      "Documentação interativa da API via Swagger/OpenAPI",
+      "Arquitetura limpa e modular baseada em DTOs e Services"
+    ],
+    "type": "profissional",
+    "status": "concluído"
+  },
+  {
+    "title": "Whatsapp Chatbot com Inteligência Artificial",
+    "img": "https://media.licdn.com/dms/image/v2/D4D22AQFVP6ju73fKUw/feedshare-shrink_2048_1536/B4DZarwmXFGwAw-/0/1746638367479?e=1762992000&v=beta&t=8gquaQI1OP6sKnkR06Poy3PAA3w_AyjQZuwcxAVjV7o",
+    "description": "Chatbot para WhatsApp utilizando Waha API, Flask e Groq, com implementação de RAG (retrieval-augmented generation) usando HuggingFace e ChromaDB para personalização das respostas com base no contexto e histórico de conversas.",
+    "tags": ["Python", "Flask", "Docker", "Docker Compose", "Waha API", "RAG", "HuggingFace", "GroqCloud"],
+    "repository": "https://github.com/maindan/chatbot",
+    "features": [
+      "Chatbot integrado ao WhatsApp via Waha API",
+      "RAG para respostas contextuais personalizadas",
+      "Containerização com Docker e Docker Compose",
+      "Uso de LLM GroqCloud para respostas inteligentes",
+      "Treinamento e armazenamento de contexto com HuggingFace e Chroma DB"
+    ],
+    "type": "profissional",
+    "status": "concluído"
+  },
+  {
+    "title": "Blog Django",
+    "img": "https://i.ibb.co/Y4mhJmwp/Design-sem-nome-4.png",
+    "description": "Sistema de blog desenvolvido com Python e Django, utilizando o Django REST Framework e Django Jazzmin para uma interface administrativa moderna. O projeto permite gerenciar posts, comentários e tags, além de contar com autenticação e autorização integradas.",
+    "tags": ["Python", "Django", "Django REST Framework", "Jazzmin", "Blog", "Acadêmico"],
+    "repository": "https://github.com/maindan/blog",
+    "features": [
+      "CRUD completo de posts, comentários e tags",
+      "Interface administrativa estilizada com Django Jazzmin",
+      "Autenticação e autorização integradas",
+      "API REST para interação com os dados",
+      "Estrutura modular e escalável com Django"
+    ],
+    "type": "acadêmico",
+    "status": "concluído"
+  },
+  {
+    "title": "API Django com Celery e RabbitMQ",
+    "img": "https://media.licdn.com/dms/image/v2/D4D22AQGe_nxJQnQu8Q/feedshare-shrink_1280/B4DZZt4MaZHwAk-/0/1745600170110?e=1762992000&v=beta&t=Eabxz3QlLP5l4L-tBa0k215tJD2yCIKDESb4jTi31ek",
+    "description": "API desenvolvida com Django, Celery e RabbitMQ para execução de tarefas assíncronas e programação de rotinas automáticas. Permite retornar respostas imediatas ao usuário enquanto processa tarefas em segundo plano, salva os resultados e oferece criação de tarefas e rotinas diretamente no Django Admin. Projeto utiliza SQLite, containerizado via Docker e Docker Compose, e possui uma task de exemplo que recebe dois valores, executa a soma e salva o resultado no banco de dados.",
+    "tags": ["Django", "Celery", "RabbitMQ", "SQLite", "Docker", "Docker Compose", "Assíncrono", "Rotinas automáticas"],
+    "repository": "https://github.com/maindan/django-celery",
+    "features": [
+      "Execução de tarefas assíncronas com Celery",
+      "Programação de rotinas automáticas com Celery Beat",
+      "Armazenamento de resultados com Celery Results",
+      "Task de exemplo que soma valores recebidos via POST",
+      "Gerenciamento de tarefas e rotinas pelo Django Admin",
+      "Containerização completa com Docker e Docker Compose"
+    ],
+    "type": "acadêmico",
+    "status": "concluído"
+  },
+  {
+    "title": "A Hamburgueria",
+    "img": "https://i.ibb.co/3ydYghTt/Design-sem-nome-3.png",
+    "description": "Projeto profissional de site para hamburgueria com foco em exibir cardápio digital, carrinho de compras e navegação responsiva. Desenvolvido com Bootstrap 5 e JavaScript puro, incluindo modal de carrinho, listagem de produtos e layout adaptável para todos os tamanhos de tela.",
+    "tags": ["HTML", "CSS", "Bootstrap", "JavaScript", "Responsividade", "Profissional"],
+    "link": "https://maindan.github.io/projeto_hamburguer/",
+    "repository": "https://github.com/maindan/projeto_hamburguer",
+    "features": [
+      "Layout responsivo com Bootstrap 5",
+      "Navegação completa entre páginas",
+      "Modal de carrinho com total dinâmico",
+      "Listagem de produtos com detalhes",
+      "Interface amigável e profissional"
+    ],
+    "type": "profissional",
+    "status": "concluído"
+  },
+  {
+    "title": "How To",
+    "img": "https://i.ibb.co/Txnm479T/Design-sem-nome-1.png",
+    "description": "Site de tutoriais Do It Yourself (faça você mesmo) desenvolvido como atividade da disciplina de Web II. O projeto utiliza o framework Bootstrap para garantir responsividade e foi publicado no GitHub Pages. Contém páginas de tutoriais, categorias e um simulador de envio de posts.",
+    "tags": ["Bootstrap", "HTML", "CSS", "JavaScript", "GitHub Pages"],
+    "link": "https://maindan.github.io/HowTo/",
+    "repository": "https://github.com/maindan/HowTo",
+    "features": [
+      "Interface responsiva com Bootstrap",
+      "Simulação de requisição HTTP para carregar posts",
+      "Uso de arquivo JSON como base de dados local",
+      "Renderização dinâmica de posts e categorias",
+      "Deploy realizado via GitHub Pages"
+    ],
+    "type": "acadêmico",
+    "status": "concluído"
+  },
+  {
+    "title": "Landing Page Studio Ghibli",
+    "img": "https://github.com/maindan/ghibli/assets/130112273/41a8f5c6-eed5-4709-a381-f653056d2b6d",
+    "description": "Página com imagens e informações referentes ao Estúdio Ghibli, criada como hobby e treino de estilização CSS para responsividade sem uso de Bootstrap, incluindo efeitos parallax.",
+    "tags": ["HTML", "CSS", "Responsividade", "Parallax"],
+    "link": "https://maindan.github.io/ghibli/",
+    "repository": "https://github.com/maindan/ghibli",
+    "features": [
+      "Responsividade sem uso de frameworks",
+      "Estilização CSS avançada",
+      "Efeito parallax em seções",
+      "Treino pessoal de design front-end"
+    ],
+    "type": "acadêmico",
+    "status": "concluído"
+  },
+  {
+    "title": "ReciclaManaus",
+    "img": "https://i.ibb.co/vCMypdZr/Design-sem-nome-2.png",
+    "description": "Aplicativo mobile desenvolvido com React Native e Expo para centralizar e localizar pontos de reciclagem na cidade de Manaus. Projeto acadêmico focado em facilitar o acesso de cidadãos a informações de coleta seletiva e incentivar práticas sustentáveis.",
+    "tags": ["React Native", "Expo", "Maps", "Sustentabilidade", "Academico"],
+    "repository": "https://github.com/maindan/ReciclaManaus",
+    "features": [
+      "Mapa interativo com localização dos pontos de reciclagem",
+      "Desenvolvido com Expo e React Native",
+      "Interface responsiva para dispositivos móveis",
+      "Projeto acadêmico focado em sustentabilidade",
+      "Facilita o acesso da população a informações de reciclagem"
+    ],
+    "type": "acadêmico",
+    "status": "concluído"
+  }
+]

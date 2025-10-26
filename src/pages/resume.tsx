@@ -8,6 +8,7 @@ import PageTitle from "@/components/page-title";
 import { GithubIcon } from "@/components/icons";
 
 export default function ResumePage() {
+  // @ts-ignore
   const MotionCard = motion(Card);
 
   return (
@@ -25,7 +26,7 @@ export default function ResumePage() {
               >
                 <CardBody>
                   <h2 className="text-2xl font-normal mr-auto">
-                    Olá! me chamo{" "}
+                    Olá! Me chamo{" "}
                     <strong className="font-semibold">Daniel.</strong>
                   </h2>
                 </CardBody>
@@ -47,7 +48,7 @@ export default function ResumePage() {
                     soluções digitais de alta qualidade e eficiência.
                   </p>
                   <a href="/cv.pdf" rel="noopener noreferrer" target="_blank">
-                    <Button className="w-fit mt-2" size="md">
+                    <Button className="w-fit mt-2" color="primary" size="md">
                       Ver CV
                     </Button>
                   </a>
@@ -62,7 +63,7 @@ export default function ResumePage() {
                 transition={{ duration: 0.1, delay: 0.8 }}
               >
                 <CardBody>
-                  <h2 className="text-2xl font-normal mr-auto">Contato</h2>
+                  <h2 className="text-2xl font-semibold mr-auto">Contato</h2>
                 </CardBody>
               </MotionCard>
               <MotionCard
