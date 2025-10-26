@@ -33,8 +33,8 @@ export default function ProjectCard({
 
   return (
     <div className="flex flex-col md:flex-row w-full transition-transform hover:scale-[1.01] items-start gap-6 md:gap-10">
-      <div className="relative w-full md:w-[420px] h-[250px] rounded-2xl overflow-hidden bg-gradient-to-b from-blue-700/20 to-black/40 p-[2px] flex-shrink-0">
-        <div className="w-full h-full rounded-lg overflow-hidden bg-gradient-to-b from-[#122144] to-[#000000]">
+      <div className="relative w-full md:w-[420px] h-[250px] p-[2px] flex-shrink-0">
+        <div className="w-full h-full">
           <img
             alt={title}
             className="w-full h-full object-contain object-top rounded-lg"
